@@ -7,6 +7,7 @@
 body{
 	font-size: 20px;
 	overflow-x: hidden;
+	font-family: 'Flamenco', cursive;
 }
 
 header{
@@ -134,4 +135,26 @@ h1{
 	margin-top: 25px;
 
 }
+
+/*resonpive*/
+
+@media only screen and (max-width: 1180px){
+	.main-content{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+
+@media only screen and (max-width: 998px){
+	h1{
+		font-size: 200%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 180%;
+	}
+}
+
 
