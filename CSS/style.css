@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+}
+
+header{
+	background-image: url('../images/sven.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+
+
+}
+
+.logo{
+
+	height: 120px;
+	width: auto;
+	float: left;
+	margin: 20px;
+
+}
+
+.main-nav{
+	float: right;
+	margin-top: 50px;
+}
+
+.main-nav li{
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 25px;
+
+}
+
+.main-nav li a{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+
+}
+
+.main-nav li a:hover{
+	border-bottom: 2px solid #bf553c;
+
+}
+
+.logo:hover{
+	border-bottom: 2px solid #bf553c;
+}
+
+.main-content{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1{
+	color: white;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+
+
+.color-change{
+	animation: clchange 2s infinite;
+
+}
+
+@keyframes clchange{
+	0%{color: white;}
+	25%{color: #87ceeb;}
+	50%{color: white;}
+	100%{color: #87ceeb; }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .social li a {
+  	color: white
+    padding: 10px 8px;
+    visibility: visible;
+  }
+}
+
+#particles-js{
+	background-image: url('../images/sven.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+.social li:hover{
+
+	color: white;
+
+}
+
+.social li a{
+	color: white;
+	margin-top: 25px;
+
+}
+
